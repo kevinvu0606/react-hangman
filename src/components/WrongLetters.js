@@ -1,6 +1,6 @@
 import React from 'react';
 
-function WrongLetters() {
+const WrongLetters = ({wrongLetters}) => {
   return (
     <div className="wrong-letters-container">
       <div>
@@ -14,6 +14,6 @@ function WrongLetters() {
       </div>
     </div>
   );
-}
+};
 
 export default WrongLetters;
