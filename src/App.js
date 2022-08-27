@@ -10,13 +10,11 @@ import './App.css';
 const words = ['application', 'programming', 'interface', 'wizard'];
 
 const selectedWord = words[Math.floor(Math.random() * words.length)];
-const playable = true;
-const correctLetters = [];
-const wrongLetters = [];
-
 
 function App() {
   const [playable, setPlayable] = useState(true);
+  const [correctLetters, setCorrectLetters] = useState([]);
+  const [wrongLetters, setWrongLetters] = useState([]);
 
   return (
     <>

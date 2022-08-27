@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 function WrongLetters() {
   return (
-    <div class="wrong-letters-container">
-        <div id="wrong-letters"></div>
+    <div className="wrong-letters-container">
+      <div id="wrong-letters"></div>
     </div>
-  )
+  );
 }
 
-export default WrongLetters
+export default WrongLetters;

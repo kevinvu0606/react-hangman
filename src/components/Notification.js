@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 function Notification() {
   return (
-    <div class="notification-container" id="notification-container">
-    <p>You have already entered this letter</p>
-  </div>
-  )
+    <div className="notification-container" id="notification-container">
+      <p>You have already entered this letter</p>
+    </div>
+  );
 }
 
-export default Notification
+export default Notification;

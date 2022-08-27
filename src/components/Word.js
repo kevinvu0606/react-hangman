@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 function Word() {
   return (
-    <div class="word" id="word"></div>
-  )
+    <div className="word" id="word"></div>
+  );
 }
 
-export default Word
+export default Word;
