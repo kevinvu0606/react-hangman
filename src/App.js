@@ -65,7 +65,7 @@ function App() {
         wrongLetters={wrongLetters}
         selectedWord={selectedWord}
         setPlayable={setPlayable}
-        playable={playAgain}
+        playAgain={playAgain}
       />
       <Notification showNotification={showNotification} />
     </>
