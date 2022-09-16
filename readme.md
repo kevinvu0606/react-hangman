@@ -13,7 +13,7 @@ Basic Hangman with popup features
 
 ### 📚 Challenges:
 
-- State Management for wrong letters, correct letters and creating a popup based on this.
+- State Management for wrong letters, correct letters and creating a pop-up based on this.
 
 ## 🌟 Show your support
 
