@@ -7,7 +7,7 @@ import {showNotification as show} from './helpers/helpers';
 import Notification from './components/Notification';
 import PopUp from './components/PopUp';
 import './App.css';
-
+// TODO : import random word selector to use for random generation of words.
 const words = ['application', 'programming', 'interface', 'wizard'];
 
 const selectedWord = words[Math.floor(Math.random() * words.length)];
